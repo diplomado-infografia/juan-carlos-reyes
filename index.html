@@ -56,6 +56,23 @@
                 font-weight: 600;
                 font-style: normal;
             }
+            /* para header y background*/
+            header {
+                background:transparent url('img/header.jpg') top center no-repeat;
+                background-size:100% auto;
+                padding-top:50vh;
+            }
+            @media (orientation: landscape) {
+                 header{
+                     padding-top:50vh;
+                     padding-bottom:500px;
+                 }
+            }
+            @media (orientation: portrait) {
+                 header{
+                     padding-top:10vh;
+                 }
+
         </style>
     </head>
     <body>
@@ -69,7 +86,7 @@
                         <h3 class="text-center fs-6">Por Juan Carlos Reyes</h3>
                         <h4 class="text-center fs-6 mb-4 fw-normal text-body-secondary">4 DE JULIO, 2023</h4>
                         <p class="lead border-top border-bottom py-3">
-                            La práctica de “volar” hacia las aguas profundas, se ha conformado en una disciplina deportiva de pulcritud y desplante estético, donde en un breve espacio de tiempo cada clavadista debe demostrar, saltando desde una altura que puede llegar hasta los diez metros, que puede rozar la perfección.
+                            <em>La práctica de “volar” hacia las aguas profundas, se ha conformado en una disciplina deportiva de pulcritud y desplante estético, donde en un breve espacio de tiempo cada clavadista debe demostrar, saltando desde una altura que puede llegar hasta los diez metros, que puede rozar la perfección</em>
                         </p>
                     </div>
                 </div>
@@ -114,10 +131,10 @@
                     </div>
                     <!--1. Posición inicial-->
                     <div class="row g-0 align-items-center bg-light">
-                        <div class="col-md-7">
+                        <div class="col-md-5">
                             <img src="img/inicial.jpg" class="w-100" />
                         </div>
-                        <div class="col-md-5 p-4">
+                        <div class="col-md-7 p-4">
                             <dl>
                                 <dt>1. Posición inicial</dt>
                                 <dd>
@@ -131,10 +148,10 @@
                     </div>
                     <!--2. Despegue-->
                     <div class="row g-0 align-items-center bg-light">
-                        <div class="col-md-7">
+                        <div class="col-md-5">
                             <img src="img/despegue.png" class="w-100" />
                         </div>
-                        <div class="col-md-5 p-4">
+                        <div class="col-md-7 p-4">
                             <dl>
                                 <dt>2. Despegue</dt>
                                 <dd>
@@ -178,10 +195,10 @@
                     </div>
                     <!--3. Vuelo-->
                     <div class="row g-0 align-items-center bg-light">
-                        <div class="col-md-7">
+                        <div class="col-md-5">
                             <img src="img/vuelo.png" class="w-100" />
                         </div>
-                        <div class="col-md-5 p-4">
+                        <div class="col-md-7 p-4">
                             <dl>
                                 <dt>3. Vuelo</dt>
                                 <dd>
@@ -504,19 +521,10 @@
                     final: "https://diplomado-infografia.github.io/juan-carlos-reyes/",
                 },
                 {
-                    title: "Adiestramiento ecuestre",
-                    description: "Es la forma más avanzada de entrenamiento equino, se basa en la relación entre el binomio de atletas equino-jinete, siendo considerada como el símil del ballet para los humanos",
-                    author: "Lorena Sánchez",
-                    about: "Ilustradora científica",
-                    account: "https://github.com/LorenaConst",
-                    mugshot: "https://avatars.githubusercontent.com/u/137964814?v=4",
-                    final: "https://diplomado-infografia.github.io/lorena-sanchez/",
-                },                
-                {
                     title: "Boxeo",
-                    description: "Dos contrincantes, un cuadrilátero. Se lleva la victoria quien lance más golpes en la cabeza y el torso de su oponente.",
+                    description: "¡Aún está pendiente su edición de los metadatos!",
                     author: "Gonzalo Olivares",
-                    about: "Diseñador gráfico. Escribo y publico en Editorial Corazón de Hueso. Mi último y primer libro es «28 de Marzo. Vida, tragedia y memoria». Soy papá.",
+                    about: "¡Aún está pendiente la edición de su Bio en GitHub!",
                     account: "https://github.com/gnzloinfografia",
                     mugshot: "https://avatars.githubusercontent.com/u/137964689?v=4",
                     final: "https://diplomado-infografia.github.io/gonzalo-olivares/",
@@ -530,9 +538,20 @@
                     mugshot: "https://avatars.githubusercontent.com/u/103609379?v=4",
                     final: "https://diplomado-infografia.github.io/camila-quezada/",
                 },
+
+                {
+                    title: "Equitación",
+                    description: "¡Aún está pendiente su edición de los metadatos!",
+                    author: "Lorena Sánchez",
+                    about: "Ilustradora científica",
+                    account: "https://github.com/LorenaConst",
+                    mugshot: "https://avatars.githubusercontent.com/u/137964814?v=4",
+                    final: "https://diplomado-infografia.github.io/lorena-sanchez/",
+                },
                 {
                     title: "Gimnasia rítmica",
-                    description: "Disciplina que combina la danza moderna, la gimnasia y el ballet, conectándolos a través de la música. Desarrolla la expresión artística, la elegancia, la coordinación y la flexibilidad a través del uso de distintos implementos.",
+                    description:
+                        "Disciplina que combina la danza moderna, la gimnasia y el ballet, conectándolos a través de la música. Desarrolla la expresión artística, la elegancia, la coordinación y la flexibilidad a través del uso de distintos implementos.",
                     author: "Mariana Sánchez",
                     about: "Diseñadora Gráfica",
                     account: "https://github.com/marianasanchezs",
@@ -541,7 +560,8 @@
                 },
                 {
                     title: "Halterofilia",
-                    description: "Levantar más del doble del peso corporal desde el suelo hasta pasar por encima de la cabeza no se trata sólo de utilizar todos los músculos del cuerpo. También se requiere una concentración y técnica absoluta.",
+                    description:
+                        "Levantar más del doble del peso corporal desde el suelo hasta pasar por encima de la cabeza no se trata sólo de utilizar todos los músculos del cuerpo. También se requiere una concentración y técnica absoluta.",
                     author: "Juan Pablo Canales",
                     about: "¡Aún está pendiente la edición de su Bio en GitHub!",
                     account: "https://github.com/jotapeCanales",
